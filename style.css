@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+*{
+    margin: 10px 10px 10px;
+    padding: 0;
+}
+.taillwind{
+    display: flex;
+    height: 200px;
+}
+.Biography{
+    border:1.9px dashed #48aaad;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:static;
+    border-radius: 1rem;
+    background-image: url(/images/pexels-madison-inouye-1831234.jpg);
+}
+h1,h2,h3{
+    position: relative;
+    bottom: 4px;
+    display: flex;
+    font-family: 'DynaPuff', cursive;
+}
+h1{
+    display: flex;
+    margin-right: 40px;
+}
+h1,.Surnom{
+    
+    justify-content: center;
+    color: #016064;
+}
+.boite-primary{
+    padding: 20px 10px 10px;
+    height: 100%;
+    border-radius: 0.6rem;
+    background-color: #48aaad;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Moi{
+    display: flex;
+    
+}
+.div-de-mes-images{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    display: flex;
+    height: 400px;
+}
+.Surnom{
+    justify-content: center;
+    margin-right: 50px;
+}
+{
+    margin-left: 1cm;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    margin-left: 2px;
+}
+.boite-second{
+    padding: 20px 10px 10px;
+    height: 100%;
+    border-radius: 0.6rem;
+    background-color: #48aaad;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+@media (max-width: 768px) { 
+    .div-de-mes-images{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0.8cm;
+    }
+    .taillwind{
+        position: relative;
+        bottom: 0.9cm;
+    }
+    .Moi{
+        position: relative;
+        top: 0.9cm;
+    }
+    img{
+        height: 300px;
+        border-radius: 1rem;
+        width: 100%;
+    }
+    h1{
+        
+        color: rosybrown;
+        font-family: 'DynaPuff', cursive;
+    }
+ }
